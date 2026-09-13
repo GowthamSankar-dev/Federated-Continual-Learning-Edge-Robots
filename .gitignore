@@ -1,0 +1,31 @@
+# ROS2 build files
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Datasets
+data/
+datasets/
+
+# Model files
+*.pt
+*.pth
+*.onnx
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
