@@ -6,8 +6,7 @@ setup(
     name=package_name,
     version='0.0.0',
     packages=find_packages(exclude=['test']),
-    data_files=[
-        ('share/ament_index/resource_index/packages',
+    data_file        ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
@@ -23,8 +22,7 @@ setup(
         ],
     },
     entry_points={
-    'console_scripts': [
-        'camera_capture = perception_node.camera_capture:main',
-    ],
-},
+        'console_scripts': [
+        ],
+    },
 )
